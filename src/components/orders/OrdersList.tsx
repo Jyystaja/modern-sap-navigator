@@ -1,5 +1,6 @@
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
+import { cn } from "@/lib/utils";
 
 const mockOrders = [
   { id: "PO-001", product: "Widget A", quantity: 1000, status: "In Progress", dueDate: "2024-03-15" },
