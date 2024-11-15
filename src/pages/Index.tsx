@@ -25,6 +25,27 @@ const Index = () => {
       path: "/settings",
       color: "bg-purple-500",
     },
+    {
+      title: "Production Data",
+      description: "Configure system preferences and user settings",
+      icon: Settings,
+      path: "/settings",
+      color: "bg-purple-500",
+    },
+    {
+      title: "Settings",
+      description: "Configure system preferences and user settings",
+      icon: Settings,
+      path: "/settings",
+      color: "bg-purple-500",
+    },
+    {
+      title: "Settings",
+      description: "Configure system preferences and user settings",
+      icon: Settings,
+      path: "/settings",
+      color: "bg-purple-500",
+    },
   ];
 
   return (
