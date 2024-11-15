@@ -7,6 +7,7 @@ import Navbar from "@/components/layout/Navbar";
 import Index from "./pages/Index";
 import Components from "./pages/Components";
 import Settings from "./pages/Settings";
+import Orders from "./pages/Orders";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => (
           <Navbar />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/orders" element={<Orders />} />
             <Route path="/components" element={<Components />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
